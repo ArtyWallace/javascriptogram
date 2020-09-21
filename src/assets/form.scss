@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+form {
+    width: 300px;
+    border: 1px solid $border-color;
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid $border-color;
+    background: none;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: rgba(33, 194, 206, .6);
+
+    cursor: pointer;
+    transition: background .3s ease-in;
+
+    &:hover {
+        background: rgba(33, 194, 206, 1);
+    }
+}
+
+.error {
+    color: red;
+}
